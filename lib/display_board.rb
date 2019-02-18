@@ -10,10 +10,11 @@ def display_board(board)
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
-  puts #{board[x]}
 end
 
-display_board(#{board[x]})
+display_board(board)
+
+# display_board(#{board[x]})
 
 
 # def five(a, b, c, d, e)
